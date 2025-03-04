@@ -1,23 +1,19 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "NapicuMaturita",
+  "description": "Nejlepší stránka pro zvládnutí maturity",
   "private": true,
   "version": "4.4.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Numax",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://maturita.napicu.eu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/Numax-cz/NapicuMaturita"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "docs": "npx quartz build --serve -d docs",
-    "check": "tsc --noEmit && npx prettier . --check",
-    "format": "npx prettier . --write",
-    "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "run": "npx quartz build --serve"
   },
   "engines": {
     "npm": ">=9.3.1",

@@ -119,9 +119,6 @@ export default (() => {
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
-    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
-
-    const iconPath = joinSegments(baseDir, "static/icon.png")
 
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
     // "static/social-images/slug-filename.md.webp"
@@ -167,35 +164,38 @@ export default (() => {
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin={"anonymous"} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* OG/Twitter meta tags */}
-        <meta name="og:site_name" content={cfg.pageTitle}></meta>
-        <meta property="og:title" content={title} />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta property="og:description" content={description} />
-        <meta property="og:image:type" content={`image/${extension}`} />
-        <meta property="og:image:alt" content={description} />
-        {/* Dont set width and height if unknown (when using custom frontmatter image) */}
-        {!frontmatterImgUrl && (
-          <>
-            <meta property="og:image:width" content={fullOptions.width.toString()} />
-            <meta property="og:image:height" content={fullOptions.height.toString()} />
-          </>
-        )}
-        <meta property="og:image:url" content={ogImagePath} />
-        {cfg.baseUrl && (
-          <>
-            <meta name="twitter:image" content={ogImagePath} />
-            <meta property="og:image" content={ogImagePath} />
-            <meta property="twitter:domain" content={cfg.baseUrl}></meta>
-            <meta property="og:url" content={socialUrl}></meta>
-            <meta property="twitter:url" content={socialUrl}></meta>
-          </>
-        )}
-        <link rel="icon" href={iconPath} />
-        <meta name="description" content={description} />
+
+        <link rel="icon" href="https://napicu.eu/favicon.png" />
+        <meta itemProp="name" content="Napicu" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, Napicu, NapicuMaturita" />
+        <meta name="author" content="Numax" />
+        <meta itemProp="image" content="https://napicu.eu/logo-meta.png" />
+        <meta
+          itemProp="description"
+          content="Ahoj kamaráde! Chceš se naučit na maturitu? Tak se běž učit!"
+        />
+
+        <meta property="og:url" content="https://maturita.napicu.eu/" />
+        <meta property="og:title" content="NapicuMaturita" />
+        <meta
+          property="og:description"
+          content="Ahoj kamaráde! Chceš se naučit na maturitu? Tak se běž učit!"
+        />
+        <meta property="og:site_name" content="Napicu" />
+        <meta property="og:image" content="https://napicu.eu/logo-meta.png" />
+
+        <meta name="twitter:url" content="https://maturita.napicu.eu/" />
+        <meta name="twitter:title" content="NapicuMaturita" />
+        <meta
+          name="twitter:description"
+          content="Ahoj kamaráde! Chceš se naučit na maturitu? Tak se běž učit!"
+        />
+        <meta name="twitter:site_name" content="Napicu" />
+        <meta name="twitter:image" content="https://napicu.eu/logo-meta.png" />
+
+        <meta name="msapplication-TileColor" content="#f1592a" />
+        <meta name="theme-color" content="#f1592a" />
+
         <meta name="generator" content="Quartz" />
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
