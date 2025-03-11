@@ -205,6 +205,10 @@ a {
         padding: 0;
         padding-top: 2rem;
       }
+      li {
+        line-height: 1.2rem;
+        margin: 10px 0;
+      }
     }
 
     & .sidebar.right {
@@ -472,7 +476,8 @@ code {
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  //line-height: 1.6rem;
+  margin: 14px 0;
 }
 
 .table-container {
