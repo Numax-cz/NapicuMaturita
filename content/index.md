@@ -3,8 +3,10 @@ title: Maturitní otázky
 author: Marcel Mikoláš
 tags:
   - číslicová-technika
+  - výpočetní-technika
 created: 2025-02-28
 ---
+
 ### [[1. Minimalizace logické funkce algebraická a grafická]]
 - Předurčení minimalizace logické funkce
 - Algebraická minimalizace logické funkce na příkladu
@@ -39,10 +41,10 @@ created: 2025-02-28
 ### 9. Multiplexery *(vypracovat duben 25)*
 - Předurčení a konstrukce multiplexerů a demultiplexerů
 - Realizace multiplexerů a demultiplexerů logickými obvody
-### 10. Posuvné a kruhové registry
+### [[10. Posuvné a kruhové registry]]
 - Popište předurčení a konstrukci kruhových registrů
 - Popište funkci posuvného registru SIPO a PISO
-### 11. Číselné soustavy a převody, odůvodnění použití aplikací různých soustav v číslicové technice *(vypracovat březen 25)*
+### [[11. Číselné soustavy a převody, odůvodnění použití aplikací různých soustav v číslicové technice]]
 - Popište číselné soustavy používané pro práci v digitální technice
 - Popište a na příkladech aplikujte převody čísel mezi různými číselnými soustavami
 - Popište zápis záporného a desetinného čísla v binární soustavě
@@ -58,7 +60,7 @@ created: 2025-02-28
 - Popis paměťového prostoru mikrořadiče AVR FLASH, SRAM a EEPROM
 - Předurčení I/O registrů, princip činnosti zásobníku paměti SRAM
 - Způsoby přímého a nepřímého adresování
-### 15. Teorie informace
+### [[15. Teorie informace]]
 - Informace, jednotky
 - Ukládání dat v počítači *(vypracovat březen 25)*
 - Kódování, šifrování, komprimace *(vypracováno podzim 24)*
@@ -92,7 +94,7 @@ created: 2025-02-28
 - SQL (SELECT, INSERT, UPDATE, DELETE)
 - Propojení databáze s webovými stránkami
 - Použití databáze pro ukládání uživatelských dat (např. formuláře, uživatelské účty)
-### 20. Algoritmizace 1 – *(vypracovat březen 25)*
+### [[20. Algoritmizace]]
 - Algoritmus, vlastnosti algoritmu, vývojové diagramy
 - Řídící struktury, datové typy
 ### 21. Algoritmizace 2 *(vypracovat duben 25)*
