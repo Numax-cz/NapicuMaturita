@@ -62,19 +62,19 @@ created: 2025-02-28
 - Způsoby přímého a nepřímého adresování
 ### [[15. Teorie informace]]
 - Informace, jednotky
-- Ukládání dat v počítači *(vypracovat březen 25)*
-- Kódování, šifrování, komprimace *(vypracováno podzim 24)*
-### 16. Počítačové sítě 1 *(vypracovat květen 25)*
+- Ukládání dat v počítači
+- Kódování, šifrování, komprimace
+### [[16. Počítačové sítě 1]]
 - Dělení počítačových sítí
 - Topologie počítačových sítí
 - Pasivní prvky sítě
 - Aktivní prvky sítě
-### 17. Počítačové sítě 2 *(vypracovat květen 25)*
+### [[17. Počítačové sítě 2]]
 - Model ISO/OSI
 - Architektura TCP/IP
 - Protokoly jednotlivých vrstev
 - Trendy v oblasti počítačových sítí (SDN, IoT, 5G)
-### 18. Tvorba webových stránek - *(vypracovat duben 25)*
+### [[18. Tvorba webových stránek]]
 - Web, internet, HTTP, domény, hosting
 - HTML – struktura
 - CSS – vzhled
@@ -97,7 +97,7 @@ created: 2025-02-28
 ### [[20. Algoritmizace]]
 - Algoritmus, vlastnosti algoritmu, vývojové diagramy
 - Řídící struktury, datové typy
-### 21. Algoritmizace 2 *(vypracovat duben 25)*
+### [[21. Algoritmizace 2]]
 - Funkce
 - Standardní knihovny, vlastní knihovny
 - Pole, třídění pole
