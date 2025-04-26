@@ -86,7 +86,7 @@ created: 2025-02-28
 - SEO, hosting
 - Zabezpečení (SSL)
 - Budoucnost - PWA, AI ve webu
-### 19. Databáze - *(vypracovat květen 25)*
+### [[19. Databáze]]
 - Co je databáze - účel a využití databází na webu
 - Typy databází
   - Relační databáze – co to je, jak fungují (tabulky, řádky, sloupce)
