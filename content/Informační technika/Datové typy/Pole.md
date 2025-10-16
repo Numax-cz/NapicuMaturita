@@ -7,6 +7,7 @@ tags:
 created: 2025-03-12
 ---
 * Pole jsou datové struktury, které **umožňují ukládat více hodnot stejného typu pod jedním názvem**. 
+* Hodnoty jsou v paměti uloženy **sekvenčně** a přistupuje se k nim pomocí **indexu**.
 * Prvky v poli jsou indexovány od 0.
 
 ```c
