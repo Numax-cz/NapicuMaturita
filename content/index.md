@@ -1,4 +1,4 @@
----
+	---
 title: Maturitní otázky
 author: Marcel Mikoláš
 tags:
@@ -147,8 +147,8 @@ created: 2025-02-28
 - Zapojení SE, SC, SB, vlastnosti
 - Zapojení tranzistoru NPN se společným emitorem ve třídě A
 - Tranzistor v režimu zesilovače, ve spínacím režimu
-### 3. Unipolární tranzistory a jejich základní zapojení
-- typy tranzistorů FET a jejich značky
+### [[#3. Unipolární tranzistory a jejich základní zapojení]]
+- Typy tranzistorů FET a jejich značky
 - JFET: struktura, princip činnosti, využití
 - JFET: jako spínací prvek, napětí řízený odpor
 - MOSFET: druh, struktura, princip činnosti, charakteristiky, nastavení klidového pracovního bodu
@@ -179,7 +179,6 @@ created: 2025-02-28
 - Usměrňovače: jednocestný, dvoucestný, můstkový, můstkový třífázový
 - Pasivní a aktivní filtry
 - Zdvojovače a násobiče napětí
-
 ### 9. Spínané napájecí zdroje, měniče, střídače
 - Blokové schéma spínacích zdrojů, princip činnosti
 - Rozdělení měničů
@@ -235,7 +234,6 @@ created: 2025-02-28
 - Měření elektrického proudu
 - Měření elektrického napětí
 - Zvětšování rozsahu ampérmetru a voltmetru
-
 ### 19. Měření elektrického výkonu v obvodu stejnosměrného a střídavého proudu
 - Definice výkonů
 - Měření výkonu stejnosměrného proudu
@@ -244,7 +242,6 @@ created: 2025-02-28
 - Blokové schéma analogového osciloskopu
 - Princip činnosti
 - Způsoby měření
-
 ### 21. Číslicové měřicí přístroje, popis jednotlivých částí, druhy A/Č převodníků
 - Blokové schéma číslicového MP - popis
 - Chyby číslicových MP
