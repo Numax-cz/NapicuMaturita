@@ -9,13 +9,13 @@ created: 2025-02-28
 # Číslicová technika a informační technologie
 
 ### [[1. Číselné soustavy a převody, odůvodnění použití aplikací různých soustav v číslicové technice]]
-Popište číselné soustavy používané pro práci v digitální technice
-Popište a na příkladech aplikujte převody čísel mezi různými číselnými soustavami
-Popište zápis záporného a desetinného čísla v binární soustavě
-Popište principy součtu a rozdílu dvou binárních čísel
+- Popište číselné soustavy používané pro práci v digitální technice
+- Popište a na příkladech aplikujte převody čísel mezi různými číselnými soustavami
+- Popište zápis záporného a desetinného čísla v binární soustavě
+- Popište principy součtu a rozdílu dvou binárních čísel
 ### 2. Logické proměnné a logické funkce
-popište logické funkce AND, NAND, OR, NOR, XOR, NOT
-principy Booleovy algebry, její základní operace a využití při návrhu logických obvodů, De Morganovy zákony
+- popište logické funkce AND, NAND, OR, NOR, XOR, NOT
+- principy Booleovy algebry, její základní operace a využití při návrhu logických obvodů, De Morganovy zákony
 ### [[3. Minimalizace logické funkce algebraická a grafická]]
 - Předurčení minimalizace logické funkce
 - Algebraická minimalizace logické funkce na příkladu
