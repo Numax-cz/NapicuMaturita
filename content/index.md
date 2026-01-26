@@ -1,4 +1,4 @@
-	---
+---
 title: Maturitní otázky
 author: Marcel Mikoláš
 tags:
@@ -7,84 +7,63 @@ tags:
 created: 2025-02-28
 ---
 # Číslicová technika a informační technologie
-### [[1. Minimalizace logické funkce algebraická a grafická]]
+
+### [[1. Číselné soustavy a převody, odůvodnění použití aplikací různých soustav v číslicové technice]]
+Popište číselné soustavy používané pro práci v digitální technice
+Popište a na příkladech aplikujte převody čísel mezi různými číselnými soustavami
+Popište zápis záporného a desetinného čísla v binární soustavě
+Popište principy součtu a rozdílu dvou binárních čísel
+### 2. Logické proměnné a logické funkce
+popište logické funkce AND, NAND, OR, NOR, XOR, NOT
+principy Booleovy algebry, její základní operace a využití při návrhu logických obvodů, De Morganovy zákony
+### [[3. Minimalizace logické funkce algebraická a grafická]]
 - Předurčení minimalizace logické funkce
 - Algebraická minimalizace logické funkce na příkladu
 - Grafická minimalizace logické funkce na příkladu
-### [[2. Návrh kombinačního obvodu]]
-- Definice kombinačního obvodu a jeho předurčení
-- Postup návrhu kombinačního obvodu na příkladu
-- Sestavení kombinačního obvodu z pravdivostní tabulky a z logické funkce
-### [[3. Analýza kombinačního obvodu]]
-- Předurčení analýzy kombinačního obvodu
-- Postup analýzy kombinačního obvodu na příkladu
-- Sestavení pravdivostní tabulky a logické funkce na základě analýzy
-### [[4. Sekvenční logické obvody]]
-- Definice sekvenčního logického obvodu
-- Základní typy a schémata sekvenčních logických obvodů (RS, RST, D, J-K)
-- Tabulky logických hodnot
-### [[5. Komparátor dvou proměnných a AVR instrukce]]
-- Definice činnosti a popis komparátoru dvou logických proměnných **- (vypracovat únor 25)**
-- Popis instrukcí AVR pro větvení programu
-- Popis instrukcí skoku a přeskoku instrukčního souboru AVR
-### 6. Aritmetické operace s registry AVR
-- Principy součtu a rozdílu dvou binárních čísel
-- Základní aritmetické operace instrukčního souboru AVR
-- Příklad aritmetických operací v assembleru AVR
-### 7. Binární sčítání a sčítačky AVR
-- Konstrukce obvodů binární sčítačky
-- Instrukční soubor aritmetických operací AVR
-- Příklad sčítání a odčítání 16-bitových čísel v assembleru AVR
-### [[8. Převodník kódu a algoritmus BCD]]
-- Předurčení kódu BCD pro aplikaci v číslicové technice
+### [[4. Logické obvody]]
+- Základní charakteristiky logického členu
+- Logické obvody TTL, CMOS
+- Spojování vstupů a výstupů logických členů
+- Dynamické vlastnosti logických členů
+### [[5. Kombinační logické obvody]]
+- Analýza kombinačního obvodu, jeho přepis do pravdivostní tabulky a logické funkce
+- Návrh kombinačního obvodu z pravdivostní tabulky a z logické funkce
+### [[6. Binární sčítání, sčítačky, komparátory]]
+- Sčítání binárních čísel **DODĚLAT**
+- Konstrukce obvodů binární sčítačky (poloviční, úplná) **DODĚLAT**
+- Konstrukce obvodů komparátoru dvou logických proměnných
+### [[7. Převodník kódu, algoritmus a realizace převodu binární proměnné do kódu BCD]]
+- Popište předurčení kódu BCD pro aplikaci v číslicové technice
 - Vývojový diagram pro převod binárních čísel do kódu BCD
-### [[9. Multiplexery]]
-- Předurčení a konstrukce multiplexerů a demultiplexerů
+### 8. Multiplexery
+- Popište předurčení a konstrukci multiplexerů a demultiplexerů
 - Realizace multiplexerů a demultiplexerů logickými obvody
-### [[10. Posuvné a kruhové registry]]
-- Popište předurčení a konstrukci kruhových registrů
-- Popište funkci posuvného registru SIPO a PISO
-### [[11. Číselné soustavy a převody, odůvodnění použití aplikací různých soustav v číslicové technice]]
-- Popište číselné soustavy používané pro práci v digitální technice
-- Popište a na příkladech aplikujte převody čísel mezi různými číselnými soustavami
-- Popište zápis záporného a desetinného čísla v binární soustavě
-### 12. Aplikace logických operací v binární soustavě, instrukce assembleru pro mikrořadiče AVR RISC jádrem
-- Popište logické funkce AND, NAND, OR, NOR, XOR, NOT
-- Popište na příkladech použití logických funkcí pro maskování binárních proměnných
-- Popište logické instrukce instrukčního souboru mikrořadičů AVR
-### 13. Práce a konfigurace portů AVR mikrořadičů RISC jádrem
-- Předurčení portů mikrořadičů AVR, popis činnosti podle katalogového schématu
-- Konfigurace portů a jejich režimy nastavení
-- Instrukční soubor a příklad v assembleru pro práci s porty
-### 14. Rozdělení paměťového prostoru mikrořadiče AVR, způsoby adresování a mapování paměťového prostoru, popis pracovních registrů, registrů I/O, paměti dat a EEPROM, Flash programu
-- Popis paměťového prostoru mikrořadiče AVR FLASH, SRAM a EEPROM
-- Předurčení I/O registrů, princip činnosti zásobníku paměti SRAM
-- Způsoby přímého a nepřímého adresování
-### [[15. Teorie informace]]
+### [[9. Sekvenční logické obvody]]
+- Definice sekvenčního logického obvodu
+- Základní typy a schémata sekvenčních logických obvodů RS, RST, D, J-K a tabulky logických hodnot
+### 10. Paměťové registry
+- Význam registru, typy a použití v procesorech
+- Posuvné registry - princip, základní typy (SIPO, PISO…) a příklady využití.
+### [[11. Teorie informace]]
 - Informace, jednotky
 - Ukládání dat v počítači
 - Kódování, šifrování, komprimace
-### [[16. Počítačové sítě 1]]
-- Dělení počítačových sítí
-- Topologie počítačových sítí
-- Pasivní prvky sítě
-- Aktivní prvky sítě
-### [[17. Počítačové sítě 2]]
-- Model ISO/OSI
-- Architektura TCP/IP
-- Protokoly jednotlivých vrstev
-	- Síťová vrstva (IP, ARP, ICMP)
-	- Transportní vrstva (TCP, UDP)
-	- Aplikační vrstva
-		•HTTP, HTTPS (webové služby)
-		•FTP, SFTP (přenos souborů)
-		•SMTP, POP3, IMAP (e-mailová komunikace)
-		•DNS (překlad doménových jmen na IP adresy)
-		•DHCP (automatické přidělování IP adres)
+### [[12. Počítačové sítě 1]]
+- Dělení (podle rozsahu, média, správy, topologie)
+- Pasívní a aktivní prvky sítí
+### [[13. Počítačové sítě 2]]
+- Model ISO/OSI, architektura TCP/IP
 - Adresace v počítačových sítích
-- Trendy v oblasti počítačových sítí (SDN, IoT, 5G)
-### [[18. Tvorba webových stránek]]
-- Web, internet, HTTP, domény, hosting
+- Protokoly
+### [[14. Algoritmizace]]
+- Algoritmus, vlastnosti algoritmu, vývojové diagramy
+- Řídící struktury, datové typy
+- Funkce, standardní knihovny, vlastní knihovny
+- Pole, třídění pole, vícerozměrné pole
+- Soubory
+- Programovací jazyky
+### [[15. Tvorba webových stránek]]
+- Web, intesrnet, HTTP, domény, hosting
 - HTML – struktura
 - CSS – vzhled
 - JavaScript – interaktivita
@@ -95,41 +74,34 @@ created: 2025-02-28
 - SEO, hosting
 - Zabezpečení (SSL)
 - Budoucnost - PWA, AI ve webu
-### [[19. Databáze]]
-- Co je databáze - účel a využití databází na webu
+### [[16. Databáze]]
+- Co je databáze
 - Typy databází
-  - Relační databáze – co to je, jak fungují (tabulky, řádky, sloupce)
-  - NoSQL databáze – velmi stručně o alternativách (MongoDB, JSON)
-- SQL (SELECT, INSERT, UPDATE, DELETE)
+- Relační databáze – co to je, jak fungují (tabulky, řádky, sloupce, vazby-primární klíč)
+- NoSQL databáze – velmi stručně o alternativách (MongoDB, JSON)
+- SQL (SELECT,  INSERT, UPDATE, DELETE )
 - Propojení databáze s webovými stránkami
 - Použití databáze pro ukládání uživatelských dat (např. formuláře, uživatelské účty)
-### [[20. Algoritmizace]]
-- Algoritmus, vlastnosti algoritmu, vývojové diagramy
-- Řídící struktury, datové typy
-### [[21. Algoritmizace 2]]
-- Funkce
-- Standardní knihovny, vlastní knihovny
-- Pole, třídění pole
-- Soubory
-- Programovací jazyky
-### 22. Počítačové paměti
-- Druhy pamětí, technologie
+### 17. Počítačové paměti
+- Typy pamětí - vnitřní, vnější - magnetické, optické, elektronické
+- Technologie pamětí
+- Nevolatilní paměti
 - Parametry pamětí
-### 23. Grafický subsystém
+- organizace paměťových pouzder
+- Použití pamětí
+### 18. Grafický subsystém
 - Grafické karty, monitory/displeje, digitalizace
-- Barevné modely, počítačová grafika
-### 24. Základní deska
+- Barevné modely (RGB, CMYK), počítačová grafika - zpracování obrazu
+### 19. Základní deska
 - Popis, BIOS/UEFI, chipset
 - Interní a externí konektory
 - Formáty základní desky
-### 25. Procesory
+### 20. Procesory
 - Rozdělení procesorů
 - Architektury procesorů
 - Parametry procesorů, výrobní technologie
-### 26. Zvukový subsystém
-- Zvuková karta, zvukové formáty, konverze, analýza zvuku
-- AD/DA převodníky, MIDI
-- Elektroakustické měniče
+
+
 ---
 # Elektronika
 
@@ -147,25 +119,27 @@ created: 2025-02-28
 - Zapojení SE, SC, SB, vlastnosti
 - Zapojení tranzistoru NPN se společným emitorem ve třídě A
 - Tranzistor v režimu zesilovače, ve spínacím režimu
-### [[#3. Unipolární tranzistory a jejich základní zapojení]]
+### [[3. Unipolární tranzistory a jejich základní zapojení]]
 - Typy tranzistorů FET a jejich značky
 - JFET: struktura, princip činnosti, využití
 - JFET: jako spínací prvek, napětí řízený odpor
 - MOSFET: druh, struktura, princip činnosti, charakteristiky, nastavení klidového pracovního bodu
 - CMOS technologie: funkce v logických obvodech s indukovaným kanálem jako spínač
 - Základy pro manipulaci s tranzistory řízenými elektrickým polem
-### 4. Složitější struktury polovodičů, tyristory, triaky, diaky, GTO, IGBT
+### [[4. Složitější struktury polovodičů, tyristory, triaky, diaky, GTO, IGBT]]
 - Diaky: struktura, charakteristiky, požití
 - Tyristory: struktura, princip činnosti, základní stavy, způsoby spínání, VA- charakteristiky
 - Tyristor ve střídavém a stejnosměrném obvodu, řízené usměrňovače
 - Triaky: princip činnosti, charakteristiky, řízení
 - IGBT: princip činnosti
-### 5. Součástky řízené neelektrickými veličinami
+### [[5. Součástky řízené neelektrickými veličinami]]
 - Součástky řízení světlem: fotorezistory, fotodiody, fototranzistory, fototyristory, optrony
 - Součástky řízené magnetickým polem: magnetorezistory, Hallova sonda
 - Součástky řízené teplotou: termistory negativní a pozitivní
 - Varistory
-### 6. Frekvenční charakteristiky lineárních dvojbranů
+### [[6. Frekvenční charakteristiky lineár<div class="img-description">
+Charakteristika integračního článku
+</div>ních dvojbranů]]
 - Druhy frekvencích charakteristiky, komplexní napěťový přenos, útlumová a fázová charakteristika
 - Odvození přenosu, frekvenční charakteristiky
 - Integrační RC článek, Derivační RC článek, Wienův RC článek
