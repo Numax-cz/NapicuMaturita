@@ -137,9 +137,7 @@ created: 2025-02-28
 - Součástky řízené magnetickým polem: magnetorezistory, Hallova sonda
 - Součástky řízené teplotou: termistory negativní a pozitivní
 - Varistory
-### [[6. Frekvenční charakteristiky lineár<div class="img-description">
-Charakteristika integračního článku
-</div>ních dvojbranů]]
+### [[6. Frekvenční charakteristiky lineárních dvojbranů]]
 - Druhy frekvencích charakteristiky, komplexní napěťový přenos, útlumová a fázová charakteristika
 - Odvození přenosu, frekvenční charakteristiky
 - Integrační RC článek, Derivační RC článek, Wienův RC článek
