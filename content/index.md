@@ -112,7 +112,7 @@ created: 2025-02-28
 - Polovodiče: přechod PN v propustném směru a závěrném směru
 - Polovodičové diody: parametry, voltampérová charakteristika
 - Druhy a vlastnosti diody (usměrňovací, kapacitní, stabilizační, tunelové, Schottkyho..)
-### 2. Bipolární tranzistory a jejich základní zapojení
+### [[2. Bipolární tranzistory a jejich základní zapojení]]
 - Struktura, princip činnosti, rozdělení, druhy, charakteristické vlastnosti, značení
 - Popis režimů bipolárních tranzistoru
 - Statické charakteristiky bipolárních tranzistoru
@@ -141,7 +141,7 @@ created: 2025-02-28
 - Druhy frekvencích charakteristiky, komplexní napěťový přenos, útlumová a fázová charakteristika
 - Odvození přenosu, frekvenční charakteristiky
 - Integrační RC článek, Derivační RC článek, Wienův RC článek
-### 7. Rezonanční obvody a jejich využití
+### [[7. Rezonanční obvody a jejich využití]]
 - Sériový rezonanční obvod: náhradní schéma, rezonance, činitel jakosti, rezonanční křivka, šířka pásma
 - Paralelní rezonanční obvod: paralelní a sérioparalelní náhradní schéma, rezonance, činitel jakosti, rezonanční
 - Křivka, šířka, pásma
