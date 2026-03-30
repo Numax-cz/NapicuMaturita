@@ -146,7 +146,7 @@ created: 2025-02-28
 - Paralelní rezonanční obvod: paralelní a sérioparalelní náhradní schéma, rezonance, činitel jakosti, rezonanční
 - Křivka, šířka, pásma
 - Použití rezonančních obvodů
-### 8. Klasické napájecí zdroje a násobiče napětí
+### [[8. Klasické napájecí zdroje a násobiče napětí]]
 - Schéma klasického napájecího zdroje
 - Usměrňovače: jednocestný, dvoucestný, můstkový, můstkový třífázový
 - Pasivní a aktivní filtry
