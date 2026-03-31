@@ -82,7 +82,7 @@ created: 2025-02-28
 - SQL (SELECT,  INSERT, UPDATE, DELETE )
 - Propojení databáze s webovými stránkami
 - Použití databáze pro ukládání uživatelských dat (např. formuláře, uživatelské účty)
-### 17. Počítačové paměti
+### [[17. Počítačové paměti]]
 - Typy pamětí - vnitřní, vnější - magnetické, optické, elektronické
 - Technologie pamětí
 - Nevolatilní paměti
