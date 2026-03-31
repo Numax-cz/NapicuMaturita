@@ -89,7 +89,7 @@ created: 2025-02-28
 - Parametry pamětí
 - organizace paměťových pouzder
 - Použití pamětí
-### 18. Grafický subsystém
+### [[18. Grafický subsystém]]
 - Grafické karty, monitory/displeje, digitalizace
 - Barevné modely (RGB, CMYK), počítačová grafika - zpracování obrazu
 ### 19. Základní deska
